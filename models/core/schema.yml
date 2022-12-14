@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: data-plane-unit-test
+    schema: public
+    tables:
+      - name: category
+      - name: customer
+models:
+  - name: category_silver
+    description: ""
+  - name: customer_silver
+    description: ""
